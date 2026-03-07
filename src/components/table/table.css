@@ -1,0 +1,22 @@
+.TableMainSec{
+    padding:0.5rem;
+}
+
+.ActualTableDiv{
+    width:50rem;
+}
+
+.ActualTableDiv thead{
+    background-color: rgb(228, 228, 228);
+    padding:0.5rem 0rem;
+}
+
+.ActualTableDiv thead th{
+    text-align: start;
+    padding:0.5rem;
+}
+
+.ActualTableDiv tbody{
+    border:0.05rem black solid;
+    padding:0.5rem;
+}
