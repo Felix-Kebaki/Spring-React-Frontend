@@ -1,15 +1,21 @@
 .TableMainSec{
+    width:100%;
+    display:flex;
+    justify-content: center;
     padding:0.5rem;
 }
 
 .ActualTableDiv{
     width:50rem;
+    padding:0.2rem;
+    box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.322);
 }
 
 .ActualTableDiv thead{
-    background-color: rgb(228, 228, 228);
     padding:0.5rem 0rem;
+    border: none;
 }
+
 
 .ActualTableDiv thead th{
     text-align: start;
@@ -19,4 +25,8 @@
 .ActualTableDiv tbody{
     border:0.05rem black solid;
     padding:0.5rem;
+}
+
+.ActualTableDiv tbody td{
+    padding:0.3rem;
 }

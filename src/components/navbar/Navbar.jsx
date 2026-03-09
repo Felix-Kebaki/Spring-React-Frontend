@@ -1,15 +1,17 @@
 import "./navbar.css"
 
+import { Link } from "react-router-dom"
+
 export function Navbar() {
   return (
     <section className="NavbarMainSec">
         <div className="NavLogoMainDiv">
-            <p>Full-stack Application</p>
+            <Link to="/">Full-stack Application</Link>
         </div>
         <div className="NavBtnMainDiv">
-            <button>
+            <Link to="/addUser">
                 Add User
-            </button>
+            </Link>
         </div>
     </section>
   )

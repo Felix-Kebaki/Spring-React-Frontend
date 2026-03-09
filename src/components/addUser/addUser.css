@@ -1,0 +1,52 @@
+.AddUserMainSec{
+    padding:0.5rem;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AddUserMainSec form{
+    box-shadow: 0rem 0rem 1rem rgb(128, 128, 128);
+    padding:2rem;
+    width:30rem;
+    border-radius: 0.5rem;
+}
+
+.AddUserMainSec form div{
+    width:100%;
+    margin-top:0.5rem;
+}
+
+.AddUserMainSec form div input{
+    width:100%;
+    padding:0.4rem;
+    outline: none;
+    border-radius: 0.4rem;
+    border:0.08rem black solid;
+}
+
+.AddUserBtnMainDiv{
+    display: flex;
+    padding-top:0.4rem;
+    justify-content: space-between;
+    width:100%;
+}
+
+.AddUserBtnMainDiv button{
+    width:49%;
+    padding:0.4rem;
+    cursor:pointer;
+    background-color: transparent;
+}
+
+.AddUserBtnMainDiv button:last-child{
+    border: 0.08rem red solid;
+    color:red;
+    border-radius: 0.5rem;
+}
+
+.AddUserBtnMainDiv button:first-child{
+    border: 0.08rem black solid;
+    color:black;
+    border-radius: 0.5rem;
+}

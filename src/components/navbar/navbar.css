@@ -7,12 +7,14 @@
     align-items: center;
 }
 
-.NavLogoMainDiv p{
+.NavLogoMainDiv a{
+    text-decoration: none;
     color:white;
     font-size:1.2rem;
 }
 
-.NavBtnMainDiv button{
+.NavBtnMainDiv a{
+    text-decoration: none;
     padding:0.5rem 1rem;
     border:0.08rem white solid;
     border-radius: 0.2rem;
